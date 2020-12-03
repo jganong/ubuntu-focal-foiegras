@@ -55,4 +55,6 @@ apt install --yes libgdal-dev
 apt install --yes r-base
 # finally, install the R package foieGras
 echo "install.packages('foieGras',repos='https://cloud.r-project.org')" | R --vanilla
+# also install ncdf4 because we will need it for the WC grid files
+echo "install.packages('ncdf4',repos='https://cloud.r-project.org')" | R --vanilla
 
