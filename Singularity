@@ -57,4 +57,5 @@ apt install --yes r-base
 echo "install.packages('foieGras',repos='https://cloud.r-project.org')" | R --vanilla
 # also install ncdf4 because we will need it for the WC grid files
 echo "install.packages('ncdf4',repos='https://cloud.r-project.org')" | R --vanilla
+echo "install.packages('rgeos',repos='https://cloud.r-project.org')" | R --vanilla
 
