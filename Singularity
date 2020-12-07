@@ -5,7 +5,7 @@ From:rocker/r-ubuntu:20.04
 MAINTAINER jganong@stanford.edu
 
 %environment
-# without the TERM setting, it does not backspace, actually it does but does not show it which is worse
+# without the TERM setting, it does not backspace, actually it does but does not show it which is worse!
 export TERM=xterm-256color
 
 %runscript
